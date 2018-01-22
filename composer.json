@@ -1,0 +1,12 @@
+{
+    "name": "asiby/chained",
+    "authors": [
+        {
+            "name": "Abdoulaye Siby",
+            "email": "maestro@abdoulaye.com"
+        }
+    ],
+    "require": {
+        "components/jquery": "3.x"
+    }
+}

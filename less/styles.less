@@ -1,0 +1,49 @@
+
+.box {
+  position: absolute;
+  display: block;
+  border: 2px black solid;
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+
+  &:before {
+    content: attr(id);
+    display: block;
+    background: black;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    top: -30px;
+    left: -2px;
+  }
+}
+
+#box1 {
+  left: 20px;
+  top: 20px;
+  border-color: green;
+}
+
+#box2 {
+  left: 350px;
+  top: 100px;
+  border-color: red;
+}
+
+#box3 {
+  left: 100px;
+  top: 200px;
+  height: 350px;
+  border-color: blue;
+}
+
+#box4 {
+  left: 500px;
+  top: 350px;
+}
+
+#chained-box-content {
+  display: none;
+}
